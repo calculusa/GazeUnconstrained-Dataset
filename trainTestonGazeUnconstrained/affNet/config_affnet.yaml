@@ -1,0 +1,12 @@
+data:
+  processed_dataset_path: "/home/lunet/cowz2/Documents/GazeEstimation/Dataset/GazeUnconstrained/processed_dataset"
+
+train:
+  batch_size: 64
+  epoch: 40
+  save_every: 10
+  save_path: "./checkpoints/AFFNet"
+
+screen:        # 14-inch MacBook Pro
+  width_cm: 30.2
+  height_cm: 19.6
