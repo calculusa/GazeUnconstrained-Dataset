@@ -1,0 +1,8 @@
+torch
+numpy
+opencv-python
+pandas
+matplotlib
+seaborn
+tobii_research
+pyyaml
