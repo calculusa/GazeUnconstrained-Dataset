@@ -8,10 +8,10 @@ An end-to-end AI engineering pipeline for unconstrained gaze estimation—from d
 GazeUnconstrainedPipeline/
 ├── data/                # Sample data and download instructions
 ├── scripts/             # Data collection and preprocessing
-├── datasets/            # Unified PyTorch Dataset class
-├── models/              # Baseline model implementations
-├── training/            # Training, evaluation, configuration
-├── notebooks/           # Analysis and visualization
+├── trainTestonGazeUniconstrained/  # Unified PyTorch Dataset class
+├                                   # Baseline model implementations
+├                                   # Training, evaluation, configuration
+├── dataVisualization/   # Analysis and visualization
 ├── requirements.txt     # Python dependencies
 ├── .gitignore           # Git exclusions
 ├── LICENSE              # MIT License
