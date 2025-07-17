@@ -9,10 +9,10 @@ from scipy.spatial.transform import Rotation as R
 from tqdm import tqdm
 
 # ─────────── 1. 路径配置 ───────────
-CSV_PATH       = "/Users/yizhou/Documents/Tobii/TobiiProSDK/64/finalDataset/gaze_annotations_p13.csv"
-IMAGE_DIR      = "/Users/yizhou/Documents/Tobii/TobiiProSDK/64/finalDataset/p13"
-OUTPUT_DIR     = "/Users/yizhou/Documents/Tobii/TobiiProSDK/64/processed_dataset/p13"
-PREDICTOR_PATH = "/Users/yizhou/Documents/Tobii/TobiiProSDK/64/finalDataset/shape_predictor_68_face_landmarks.dat"
+CSV_PATH       = "/Users/**/Documents/Tobii/TobiiProSDK/64/finalDataset/gaze_annotations_p13.csv"
+IMAGE_DIR      = "/Users/**/Documents/Tobii/TobiiProSDK/64/finalDataset/p13"
+OUTPUT_DIR     = "/Users/**/Documents/Tobii/TobiiProSDK/64/processed_dataset/p13"
+PREDICTOR_PATH = "/Users/**/Documents/Tobii/TobiiProSDK/64/finalDataset/shape_predictor_68_face_landmarks.dat"
 
 # ─────────── 2. 创建输出文件夹 ─────
 for sub in ["", "/images/face", "/images/left_eye", "/images/right_eye"]:
