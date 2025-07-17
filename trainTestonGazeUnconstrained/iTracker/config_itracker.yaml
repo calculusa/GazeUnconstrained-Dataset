@@ -1,0 +1,14 @@
+data:
+  processed_dataset_path: "/home/lunet/cowz2/Documents/GazeEstimation/Dataset/GazeUnconstrained/processed_dataset"
+
+train:
+  batch_size: 32
+  epoch: 50
+  save_every: 10
+  save_path: "./checkpoints/LOSO"
+
+
+# 新增：屏幕物理尺寸 (厘米)
+screen:
+  width_cm: 30.2   # 14-inch MBP
+  height_cm: 19.6
