@@ -53,7 +53,7 @@ python training/train.py --model gazeTR --config training/config.yaml
 ## 🔒 Data
 
 Only sample data is included. Full dataset available upon request:
-> Contact: wen.zhou@xxx.ac.uk
+> Contact:
 
 ## 📄 License
 
@@ -63,4 +63,4 @@ MIT License. See `LICENSE` for details.
 
 If you use this project or dataset, please cite:
 
-> Zhou et al., *GazeUnconstrained: A Dataset for Gaze Estimation in Unconstrained Environment*, 2025
+
