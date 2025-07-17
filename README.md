@@ -45,16 +45,19 @@ python training/train.py --model gazeTR --config training/config.yaml
 
 ## 📊 Sample Results
 
-| Model    | Angular Error (°) | Euclidean Error (px) |
+| Model    | Angular Error (°) | Euclidean Error (cm) |
 |----------|-------------------|----------------------|
-| GazeTR   | 4.57              | 48.2                 |
-| iTracker | 5.21              | 62.7                 |
+| AFF-Net  | --                | 2.26                 |
+| iTracker | --                | 2.43                 |
+| GazeTR-Hybrid   | 3.25       | --                   |
+| Full-Face| 4.57              | --                   |
+| Gaze360  | 6.01              | --                   | 
+
 
 ## 🔒 Data
 
 Only sample data is included. Full dataset available upon request:
-> Contact:
-
+> Contact: This information is hidden for the anonymous review process and will be disclosed once the review is complete.
 ## 📄 License
 
 MIT License. See `LICENSE` for details.
