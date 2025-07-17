@@ -1,0 +1,28 @@
+reader: reader_mydata
+
+train:
+  data:
+    image: /home/lunet/cowz2/Documents/GazeEstimation/Dataset/GazeUnconstrained/processed_dataset
+    label: /home/lunet/cowz2/Documents/GazeEstimation/Dataset/GazeUnconstrained/processed_dataset
+  params:
+    batch_size: 64
+    lr: 0.0001
+    decay_step: 3000
+    decay: 0.1
+    epoch: 20
+    loss: SmoothL1Loss
+  save:
+    save_path: /home/lunet/cowz2/Documents/GazeEstimation/MyProject/fullFace/output
+    # step: 1
+    model_name: fullface_model
+
+test:
+  data:
+    image: /home/lunet/cowz2/Documents/GazeEstimation/Dataset/GazeUnconstrained/processed_dataset
+    label: /home/lunet/cowz2/Documents/GazeEstimation/Dataset/GazeUnconstrained/processed_dataset
+  load:
+    load_path: /home/lunet/cowz2/Documents/GazeEstimation/MyProject/fullFace/output
+    model_name: fullface_model
+    # begin_step: 2
+    end_step: 20
+    # steps: 2
