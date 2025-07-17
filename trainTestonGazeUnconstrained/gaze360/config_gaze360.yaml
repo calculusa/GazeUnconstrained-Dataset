@@ -1,0 +1,16 @@
+model:
+  backbone: lstm         # 记录用哪个核心网络
+
+data:
+  root: /home/lunet/cowz2/Documents/GazeEstimation/Dataset/GazeUnconstrained/processed_dataset
+
+train:
+  batch_size: 16
+  epochs: 60
+  lr: 0.0001
+  step_size: 10
+  gamma: 0.5
+  loss: pinball            # 关键字段！写 “pinball” 即自动用 PinBallLoss
+
+save:
+  dir: ./checkpoints/gaze360_lstm_pinball
