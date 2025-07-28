@@ -3,9 +3,9 @@ import cv2
 import pandas as pd
 
 # Params—adjust to your paths:
-GAZE_CSV    = "/Users/yizhou/Documents/Tobii/TobiiProSDK/64/rawData/gaze_data_**.csv"
-VIDEO_FILE  = "/Users/yizhou/Documents/Tobii/TobiiProSDK/64/rawData/face_video_**.mp4"
-OUT_DIR     = "/Users/yizhou/Documents/Tobii/TobiiProSDK/64/processedDataStep1/extracted_frames_**"
+GAZE_CSV    = "/Users/**/Documents/Tobii/TobiiProSDK/64/rawData/gaze_data_**.csv"
+VIDEO_FILE  = "/Users/**/Documents/Tobii/TobiiProSDK/64/rawData/face_video_**.mp4"
+OUT_DIR     = "/Users/**/Documents/Tobii/TobiiProSDK/64/processedDataStep1/extracted_frames_**"
 
 # 1) Load gaze data
 df = pd.read_csv(GAZE_CSV)
