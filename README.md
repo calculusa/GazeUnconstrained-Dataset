@@ -57,7 +57,7 @@ python training/train.py --model gazeTR --config training/config.yaml
 ## 🔒 Data
 
 Only sample data is included. Full dataset available upon request:
-> Contact: This information is hidden for the anonymous review process and will be disclosed once the review is complete.
+> Contact: w.zhou2@lboro.ac.uk
 ## 📄 License
 
 MIT License. See `LICENSE` for details.
