@@ -49,7 +49,7 @@ python training/train.py --model gazeTR --config training/config.yaml
 |----------|-------------------|----------------------|
 | AFF-Net  | --                | 2.26                 |
 | iTracker | --                | 2.43                 |
-| GazeTR-Hybrid   | 3.25       | --                   |
+| GazeTR-Hybrid   | 6.58       | --                   |
 | Full-Face| 4.57              | --                   |
 | Gaze360  | 6.01              | --                   | 
 
